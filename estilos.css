@@ -1,0 +1,25 @@
+.body{
+    background-color: rgb(170, 80, 250);
+}
+
+.body__titulo{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.body__lista{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+    margin-top: 100px;
+}
+
+.lista__elemento{
+    background-color: aqua;
+    margin: 30px;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
