@@ -5,10 +5,9 @@ let num2 = parseInt(prompt(' por cuanto lo va a pontenciar '));
 let pont = num1
 
 for (let x = 1; x < num2; x++){
-    pont = pont * num1
-    console.log(' sin operador ', pont)
+  pont = pont * num1
 }
-
+console.log(' sin operador ', pont)
 
 let revicion = num1**num2
 
